@@ -1,11 +1,11 @@
 class PigLatinizer
   
-  attr_accessor :phrase
+  attr_accessor :text
 
   @@vowels = ["a","e","i","o", "u"]
 
   def initialize
-    @phrase = phrase
+    @text = text
   end
   
   def piglatinize(phrase)
